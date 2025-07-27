@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #c3ecf9, #a1c4fd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter-container {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem 3rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.counter-container:hover {
+  transform: scale(1.02);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.counter-buttons button {
+  background: #4facfe;
+  color: white;
+  border: none;
+  margin: 0 10px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.counter-buttons button:hover {
+  background: #00f2fe;
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: center;
+}
